@@ -1,0 +1,12 @@
+{
+  "speed_mm_s": 1000,
+  "acceleration_bound_mm_s2": 0,
+  "scale_mm_per_px": 0.05,
+  "blur_limit_px": 1,
+  "exposure_us": 60,
+  "frame_rate_hz": 120,
+  "overhead_us": 500,
+  "device_min_us": 60,
+  "device_max_us": 5000,
+  "device_step_us": 5
+}

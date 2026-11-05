@@ -1,0 +1,44 @@
+{
+  "conveyor": {
+    "predicted_blur_bound_px": 2.9999999999999996,
+    "motion_limit_us": 333.33333333333337,
+    "nonoverlap_frame_budget_us": 14666.666666666668,
+    "upper_bound_us": 333.33333333333337,
+    "recommended_grid_exposure_us": 333,
+    "feasible_in_model": true,
+    "requested_exposure_ok_in_model": false,
+    "checks": {
+      "motion_budget_ok": false,
+      "nonoverlap_frame_budget_ok": true,
+      "device_grid_ok": true
+    }
+  },
+  "accelerating": {
+    "predicted_blur_bound_px": 1.5999999999999999,
+    "motion_limit_us": 3162.2776601683795,
+    "nonoverlap_frame_budget_us": 9000,
+    "upper_bound_us": 3162.2776601683795,
+    "recommended_grid_exposure_us": 3160,
+    "feasible_in_model": true,
+    "requested_exposure_ok_in_model": false,
+    "checks": {
+      "motion_budget_ok": false,
+      "nonoverlap_frame_budget_ok": true,
+      "device_grid_ok": true
+    }
+  },
+  "device-limit": {
+    "predicted_blur_bound_px": 1.2,
+    "motion_limit_us": 50,
+    "nonoverlap_frame_budget_us": 7833.333333333334,
+    "upper_bound_us": 50,
+    "recommended_grid_exposure_us": null,
+    "feasible_in_model": false,
+    "requested_exposure_ok_in_model": false,
+    "checks": {
+      "motion_budget_ok": false,
+      "nonoverlap_frame_budget_ok": true,
+      "device_grid_ok": true
+    }
+  }
+}
