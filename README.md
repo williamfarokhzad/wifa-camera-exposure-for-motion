@@ -2,7 +2,7 @@
 
 Calculate geometric motion smear, include a bounded acceleration, and check a hypothetical camera's exposure limits and setting increments. Three runnable experiments and thirteen test methods use only Python's standard library. No camera, robot, SDK or pip dependency is needed.
 
-Prepared by William Farokhzad for WIFA Robotics. This offline learning project calculates motion bounds; it does not control or validate a camera. The full website lesson is being verified before its canonical backlink is added here.
+Prepared by William Farokhzad for WIFA Robotics. This offline learning project calculates motion bounds; it does not control or validate a camera. Read the [full camera exposure for motion lesson](https://wifarobotics.com/learn/camera-exposure-for-motion/) on WIFA Robotics for the derivation, worked examples and engineering context.
 
 ![Calculated conveyor blur against exposure time](images/exposure-budget.webp)
 
